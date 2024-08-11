@@ -1,0 +1,68 @@
+body {
+    color: White;
+    background: #121212;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header {
+        border-bottom: solid rgb(245, 26, 98);
+        padding: 20px;
+        font-size: 35px;
+        color: #f51a62;
+        font-family: "Noto Sans Symbols 2", sans-serif;
+    }
+
+.musica {
+    padding-bottom: 80px;
+    background: black;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+    ;
+    
+}
+
+
+h1 {
+    font-size: 40px;
+ 
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.musicas-recomendadas {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.outras-musicas {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.musicas-recomendadas img {
+    opacity: 0.5;
+    height: 100px;
+}
+
+.musicas-recomendadas img:hover {
+    opacity: 1.0;
+    border: 1px solid #f51a62;
+}
+
+.outras-musicas h2 {
+    color: #f51a62;
+    font-family: "Noto Sans Symbols 2", sans-serif;
+}
